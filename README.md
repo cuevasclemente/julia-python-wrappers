@@ -5,14 +5,14 @@ With Julia being a newer language, there are many libraries that are unfortunate
 
 While the hope is for this work to be obsolesced sooner rather than later, it appears to me, for the time being, a necessary evil in my personal work. Once well documented libraries with APIs as simple and fully-featured as the Python APIs become commonplace for Julia, I would hope never to have to use these 
 
-# requestswrap.jl
+### requestswrap.jl
 Contains simple functions for sending requests in julia
 
-# psycopgwrap.jl
+### psycopgwrap.jl
 Contains simple functions for using psycopg2 to interact with Postgres Databases in Julia. Currently supports sending simple queries.
 
-# xmlwrap.jl
+### xmlwrap.jl
 Contains simple functions for using python's xml parser to parse XML.
 
-# oauthwrap.jl
+### oauthwrap.jl
 Combines functions from requestswrap and python's OAuthlib to facilitate using Julia as an OAuth Client.  
